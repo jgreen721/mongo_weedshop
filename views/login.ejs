@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="overlay">
+    <img src="assets/weed.webp" alt="weed-img">
+    </div>
+
+    <div class="overlay absolute login-wrap"></div>
+    <div class="overlay absolute flex center column">
+        <% if(messages.error){ %>
+        <h3 style="color:red; margin:20px 0px"> <%=messages.error%> </h3>
+         <% } %>
+        <form method="POST" action="/login" class="bg-white flex center column card">
+            <div class="flex center form-group">
+            <div class="form-div">
+                <label for="username">Username:</label>
+                <input class="form-control" type="text" autocomplete="off" name="username" id="username" placeholder="username">
+            </div>
+            <div class="form-div">
+                <label for="password">Password:</label>
+                <input class="form-control" autocomplete="off" type="text" name="password" id="password" placeholder="password">
+            </div>
+        </div>
+            <div class="form-div flex center form-group">
+                <button class="login-btn">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
