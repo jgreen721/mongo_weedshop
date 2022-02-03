@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Weed-Category P@ge</title>
+  </head>
+  <body>
+    <div class="h-full w-full flex column between p-1">
+      <div class="flex center flex column">
+        <h1><%=category%>'s Weed:</h1>
+        <div class="flex between">
+          <h3>Results:<%=weeds.length%></h3>
+          <a href="/">Back</a>
+        </div>
+      </div>
+      <div class="weed-grid">
+        <% weeds.forEach(w=>{ %>
+        <div class="weed-card">
+          <div class="flex column center">
+            <h4>Name: <%=w.weed_name %></h4>
+            <img class="weed-img" src="<%=w.weed_image%>" alt="weed_img" />
+          </div>
+          <div class="weed-info">
+            <h3 class="p-2">P:$<%=w.price%></h3>
+            <h3 class="p-2">Q:<%=w.quantity%></h3>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+
+      <div class="footer flex center">
+        <p>Footer&copy;</p>
+      </div>
+    </div>
+  </body>
+</html>

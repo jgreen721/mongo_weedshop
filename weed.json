@@ -1,0 +1,8 @@
+[
+    {"weed_id":1,"weedname":"gods gift", "weed_image":"https://thetylt.com/attachments/24fb60fdc4c3b2792f4acb0673a3a0372351baa6/store/fill/992/661/28fc77b26007a4068087956ee9689ac9f32e05be17bbd9073725775f996f/IndicaSativa-Grid.jpg","price":55,"quantity":35,"is_indica":true,"on_sale":false},
+    {"weed_id":2,"weedname":"blue dream", "weed_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3g8RtunU0suP75HZfoZBQwho_yyrLU3Te9g&usqp=CAU","price":65,"quantity":25,"is_indica":false,"on_sale":false},
+    {"weed_id":3,"weedname":"wedding cake", "weed_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOhctOpN-bQV6__gtJyN63CKun_UpuWSXyPJtd_jqm8houZiDS7b3DscTvahEIEjvioY&usqp=CAU","price":30,"quantity":45,"is_indica":true,"on_sale":false},
+    {"weed_id":4,"weedname":"blue sativa", "weed_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhijSge1gf_Ow6FX-bYw9l2w8llDLxk8QG8v_IpWcVQLeZOBbnxPFW4eKOg2AD7a7NH8&usqp=CAU","price":50,"quantity":30,"is_indica":false,"on_sale":false},
+    {"weed_id":5,"weedname":"king of the kush", "weed_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKeQQW04X26n1ilEK5lpLxEzk_RvPWl3kd77Wx4Wca4g5vPQiL_0Wooo7YZhkaX_0ZytI&usqp=CAU","price":40,"quantity":20,"is_indica":false,"on_sale":false},
+    {"weed_id":6,"weedname":"hank kush", "weed_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhKnMVIPzlek76wrER9eki53jIRobs-eYb7EUxHYvklRcVhIdOWFHn8iJ2jj25W0uSt_U&usqp=CAU","price":35,"quantity":25,"is_indica":true,"on_sale":true}
+]

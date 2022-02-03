@@ -1,12 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Dashboard</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      let ls_user = localStorage.setItem(
+        "curr_user",
+        JSON.stringify({ username: "<%=username%>" })
+      );
+    </script>
+    <title>Welcome to da Weedstore</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- small screen menu -->
+      <div class="sm-menu flex between">
+        <div>
+          <div class="burger sm-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <%- include("partials/menu.ejs") %>
+        </div>
+        <h1><span class="underline">Welcome</span> <%=username%></h1>
+        <div>
+          <div class="close">&times;</div>
+        </div>
+      </div>
+
+      <!-- large screen menu -->
+
+      <div class="lrg-menu flex between column">
+        <div>
+          <div class="burger lrg-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div style="position: relative; left: -45px">
+            <%- include("partials/menu.ejs") %>
+          </div>
+        </div>
+        <div class="flex column evenly">
+          <h1><span class="underline">Welcome</span> <%=username%></h1>
+
+          <div class="flex column center shopping-cart">
+            <span class="shopping-cart-icon ml-15"
+              ><i class="fas fa-shopping-cart"></i
+            ></span>
+            <div class="cart-card">
+              <% cartItems.forEach(c=>{ %>
+              <div data-price="<%=c.price%>" class="cart-item flex evenly">
+                <h5><%=c.weed_name%></h5>
+                <span data-id="<%=c.weed_id%>" class="remove">&times;</span>
+              </div>
+
+              <% }) %>
+            </div>
+          </div>
+        </div>
+
+        <div class="total-div" hidden>
+          <h5>Total:<span class="cart-total"></span></h5>
+        </div>
+
+        <div>
+          <h2 class="close">&times;</h2>
+        </div>
+      </div>
+
+      <!-- main page-->
+
+      <div class="main">
+        <div class="flex evenly column p-1 banner">
+          <h1 class="h1-white">Our Main Base Selection:</h1>
+          <h3 class="toggle-add-btn" onclick="toggleModal()">Add Weed +</h3>
+        </div>
+        <div class="grid weed-grid">
+          <% weeds.forEach(w=>{ %>
+          <div data-id="<%=w._id%>" class="weed-card">
+            <div data-id="<%=w._id%>" class="flex column center">
+              <h4 class="my-5">Name: <%=w.weed_name %></h4>
+              <img class="weed-img" src="<%=w.weed_image%>" alt="weed_img" />
+            </div>
+            <div class="weed-info">
+              <h3><span class="weed-static">P: </span>$<%=w.price%></h3>
+              <h3><span class="weed-static">Q:</span><%=w.quantity%></h3>
+              <!-- <button class="add-cart-btn">Add to Cart</button> -->
+            </div>
+          </div>
+          <% }) %>
+          <h5><%=weeds.length%></h5>
+        </div>
+        <%-include("partials/addweed.ejs") %>
+      </div>
+    </div>
+
+    <script>
+      var smBurger = document.querySelector(".sm-burger");
+      var menu = document.querySelectorAll(".menu");
+      //   var lrgMenu = document.querySelector(".lrg-menu");
+      var lrgBurger = document.querySelector(".lrg-burger");
+      var closeSpans = document.querySelectorAll(".close");
+      var addCard = document.querySelector(".add-card");
+      var weedCards = document.querySelectorAll(".weed-card");
+
+      console.log(menu);
+
+      smBurger.onclick = () => menu[0].classList.toggle("hide-menu");
+      lrgBurger.onclick = () => menu[1].classList.toggle("hide-menu");
+
+      closeSpans.forEach((span) => {
+        span.onclick = () => {
+          fetch("/logout");
+          location.pathname = "/";
+        };
+      });
+
+      function toggleModal() {
+        addCard.classList.toggle("hide-card");
+      }
+
+      weedCards.forEach((w) => {
+        w.onclick = (e) => {
+          console.log(e.target);
+          location.pathname = `/weedinfo/${e.target.getAttribute("data-id")}`;
+        };
+      });
+
+      var shoppingcartBtn = document.querySelector(".shopping-cart");
+      var cart = document.querySelector(".cart-card");
+      var removeSpans = document.querySelectorAll(".remove");
+
+      shoppingcartBtn.onclick = (e) => {
+        console.log("wtttfffff");
+        cart.classList.toggle("hide-cart");
+      };
+
+      removeSpans.forEach((s) => {
+        s.onclick = async (e) => {
+          e.stopPropagation();
+
+          let weedId = e.target.getAttribute("data-id");
+          console.log("WeedID", weedId);
+
+          await fetch(`/remove/${weedId}`, {
+            headers: {
+              "Auth-Smoker": JSON.parse(localStorage.getItem("curr_user"))
+                .username,
+            },
+          });
+          location.reload();
+        };
+      });
+
+      if (document.querySelectorAll(".cart-item").length) {
+        console.log("WTFFFFFF");
+        document.querySelector(".total-div").hidden = false;
+        let total = Array.from(document.querySelectorAll(".cart-item")).reduce(
+          (acc, el) => {
+            acc += +el.getAttribute("data-price");
+            return acc;
+          },
+          0
+        );
+        document.querySelector(".cart-total").innerHTML = "$ " + total;
+      }
+    </script>
+  </body>
 </html>

@@ -1,0 +1,801 @@
+[{
+    "weed_id": 303,
+    "weed_name": "Oscar Sierra Quebec X-ray Bravo Tango Kilo Delta Echo India Papa Lima Foxtrot",
+    "price": 16,
+    "quantity": 79,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/129x100.png/dddddd/000000"
+  }, {
+    "weed_id": 396,
+    "weed_name": "Echo Oscar Lima Uniform Charlie Delta X-ray Hotel Foxtrot Golf Sierra Whiskey Juliett Papa Zulu Bravo Tango Kilo Victor",
+    "price": 66,
+    "quantity": 82,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/159x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 409,
+    "weed_name": "Hotel Foxtrot Sierra Papa Lima Quebec Tango Juliett Golf Kilo Victor Uniform Alfa Whiskey",
+    "price": 22,
+    "quantity": 94,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/103x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 234,
+    "weed_name": "Yankee Echo Delta Kilo Victor Whiskey Hotel Oscar Lima Uniform",
+    "price": 45,
+    "quantity": 52,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/165x100.png/dddddd/000000"
+  }, {
+    "weed_id": 391,
+    "weed_name": "India Mike Victor November Uniform Tango Quebec Lima Papa Yankee Sierra Juliett X-ray Alfa Golf",
+    "price": 57,
+    "quantity": 10,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/139x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 74,
+    "weed_name": "Zulu Delta Papa Lima Hotel India Charlie Echo Uniform Yankee Mike November",
+    "price": 32,
+    "quantity": 89,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 251,
+    "weed_name": "India Echo Whiskey Golf Alfa Tango Victor Hotel Uniform Yankee Sierra Papa Delta Zulu X-ray Charlie",
+    "price": 75,
+    "quantity": 21,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/202x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 172,
+    "weed_name": "Victor Charlie Kilo Delta Papa Tango Juliett Alfa Uniform Romeo Echo X-ray Oscar Lima Yankee Quebec India",
+    "price": 12,
+    "quantity": 13,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/217x100.png/dddddd/000000"
+  }, {
+    "weed_id": 245,
+    "weed_name": "Sierra Oscar Charlie Kilo Quebec Tango Foxtrot Papa Mike Bravo Delta X-ray Yankee Golf",
+    "price": 72,
+    "quantity": 83,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/114x100.png/dddddd/000000"
+  }, {
+    "weed_id": 160,
+    "weed_name": "Romeo Papa Alfa Lima Kilo Delta Uniform Victor Hotel Yankee Sierra Bravo",
+    "price": 63,
+    "quantity": 46,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/187x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 72,
+    "weed_name": "Hotel Charlie Uniform Echo Juliett Victor Foxtrot X-ray Mike Romeo November Lima Yankee Bravo Delta",
+    "price": 63,
+    "quantity": 70,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/201x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 447,
+    "weed_name": "Juliett Sierra Quebec Kilo Tango Romeo Oscar Papa Bravo India",
+    "price": 63,
+    "quantity": 36,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/111x100.png/dddddd/000000"
+  }, {
+    "weed_id": 370,
+    "weed_name": "Papa Romeo Lima Sierra Juliett Charlie India Quebec X-ray November Alfa Echo Bravo Golf",
+    "price": 40,
+    "quantity": 28,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/216x100.png/dddddd/000000"
+  }, {
+    "weed_id": 95,
+    "weed_name": "India Echo Foxtrot Hotel Sierra Golf November Romeo Lima Delta Zulu Kilo Bravo Quebec Tango X-ray Juliett Papa",
+    "price": 69,
+    "quantity": 12,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/150x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 417,
+    "weed_name": "Lima Kilo Romeo Alfa Whiskey Juliett Golf X-ray Oscar Hotel Zulu Bravo Mike Tango Foxtrot",
+    "price": 39,
+    "quantity": 47,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/179x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 107,
+    "weed_name": "Mike November Victor Oscar Zulu Golf Delta Charlie Lima Romeo Sierra Bravo Uniform Foxtrot Kilo Hotel Yankee India Alfa Quebec",
+    "price": 58,
+    "quantity": 47,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/162x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 54,
+    "weed_name": "Juliett Yankee Romeo Papa Charlie Golf Mike Victor Whiskey Oscar Alfa November Zulu",
+    "price": 20,
+    "quantity": 46,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/112x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 198,
+    "weed_name": "Kilo Alfa Whiskey Delta India Echo Tango November Uniform Quebec Charlie Bravo Zulu Victor",
+    "price": 46,
+    "quantity": 19,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/239x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 177,
+    "weed_name": "Uniform Charlie Victor Lima Bravo Romeo X-ray Golf Papa Delta Foxtrot Yankee Sierra",
+    "price": 56,
+    "quantity": 24,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 407,
+    "weed_name": "November Alfa Romeo Oscar Victor Whiskey Kilo Juliett Golf Charlie Sierra Echo Zulu Uniform Mike Quebec Yankee Delta Foxtrot",
+    "price": 24,
+    "quantity": 93,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/177x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 124,
+    "weed_name": "Sierra Echo Golf Whiskey Victor Alfa Uniform Charlie X-ray Juliett Papa Zulu Quebec Oscar Tango November Lima Mike Yankee",
+    "price": 23,
+    "quantity": 64,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/116x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 324,
+    "weed_name": "X-ray Echo Golf Papa November Yankee Tango Hotel Quebec Alfa Victor Lima Bravo Sierra Romeo Foxtrot Charlie Whiskey Mike Juliett",
+    "price": 42,
+    "quantity": 86,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/210x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 154,
+    "weed_name": "Yankee Whiskey Charlie Golf Juliett X-ray Sierra Quebec Hotel Delta Tango Foxtrot",
+    "price": 75,
+    "quantity": 89,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/158x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 2,
+    "weed_name": "Charlie Juliett Papa Hotel Lima Alfa Echo Quebec Tango Bravo",
+    "price": 39,
+    "quantity": 67,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/102x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 11,
+    "weed_name": "Romeo Papa India Golf Mike X-ray Sierra Delta Juliett Victor Lima Bravo Uniform Tango Kilo Yankee Echo Quebec Alfa",
+    "price": 44,
+    "quantity": 82,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/248x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 369,
+    "weed_name": "Zulu Hotel Sierra Mike X-ray Charlie Yankee Victor Juliett Lima Whiskey Quebec Golf Alfa Delta Kilo India Papa November",
+    "price": 71,
+    "quantity": 52,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/160x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 446,
+    "weed_name": "Quebec Delta Sierra Yankee Bravo November Whiskey Romeo Papa Oscar Alfa Kilo X-ray",
+    "price": 18,
+    "quantity": 58,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/215x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 216,
+    "weed_name": "Juliett Charlie X-ray Yankee Romeo Delta November Alfa Whiskey Tango Quebec Papa Mike Bravo Sierra Golf Hotel",
+    "price": 26,
+    "quantity": 30,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 304,
+    "weed_name": "Bravo Golf Foxtrot Juliett Kilo Tango Whiskey Quebec November X-ray Zulu Papa Alfa Echo Victor Hotel Uniform Mike Romeo",
+    "price": 64,
+    "quantity": 25,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/200x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 308,
+    "weed_name": "Romeo Echo Kilo India Delta Zulu Foxtrot Hotel Whiskey Yankee Lima Quebec",
+    "price": 25,
+    "quantity": 76,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/115x100.png/dddddd/000000"
+  }, {
+    "weed_id": 106,
+    "weed_name": "Bravo Mike Quebec Victor Zulu X-ray Sierra Echo Charlie Foxtrot Romeo India Kilo Hotel Delta Uniform",
+    "price": 37,
+    "quantity": 89,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/206x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 377,
+    "weed_name": "Whiskey November Papa X-ray Echo India Hotel Yankee Oscar Romeo Charlie Tango Delta Victor Foxtrot Bravo Golf Lima Juliett",
+    "price": 35,
+    "quantity": 74,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 214,
+    "weed_name": "Bravo Uniform Charlie Kilo Zulu Alfa X-ray Foxtrot India Romeo Lima November Oscar Golf",
+    "price": 61,
+    "quantity": 22,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/205x100.png/dddddd/000000"
+  }, {
+    "weed_id": 391,
+    "weed_name": "Kilo Bravo X-ray Golf Mike Victor Quebec Uniform Tango Alfa Romeo India Papa Foxtrot Zulu Delta Oscar",
+    "price": 21,
+    "quantity": 63,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/217x100.png/dddddd/000000"
+  }, {
+    "weed_id": 274,
+    "weed_name": "Tango Juliett Alfa Sierra Charlie Whiskey Bravo Oscar November Zulu Lima Delta Kilo",
+    "price": 41,
+    "quantity": 43,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/194x100.png/dddddd/000000"
+  }, {
+    "weed_id": 485,
+    "weed_name": "X-ray Delta Hotel Juliett Romeo Oscar Echo Bravo Kilo Alfa Yankee Quebec India Golf Papa Charlie Foxtrot November Sierra",
+    "price": 24,
+    "quantity": 52,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/194x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 309,
+    "weed_name": "Yankee Sierra Mike Delta Tango Papa Echo Zulu Bravo Alfa India Romeo Charlie",
+    "price": 44,
+    "quantity": 59,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/241x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 18,
+    "weed_name": "Juliett Alfa Whiskey Lima Echo Golf Foxtrot Victor November Yankee Quebec Kilo India Delta Zulu Romeo Tango Papa Bravo",
+    "price": 74,
+    "quantity": 46,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/218x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 106,
+    "weed_name": "X-ray India Lima Juliett Quebec Alfa Yankee Zulu Whiskey Bravo Hotel Tango Mike Sierra November Papa Romeo Echo Charlie Kilo",
+    "price": 75,
+    "quantity": 34,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/233x100.png/dddddd/000000"
+  }, {
+    "weed_id": 172,
+    "weed_name": "Kilo India Hotel Mike Yankee Echo Romeo Lima Quebec Tango X-ray Foxtrot Whiskey Bravo Victor",
+    "price": 92,
+    "quantity": 65,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/111x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 484,
+    "weed_name": "Yankee Tango Juliett Mike Papa Whiskey Foxtrot Romeo Hotel Uniform Echo Golf November Sierra X-ray Kilo Alfa Bravo Lima Zulu",
+    "price": 39,
+    "quantity": 20,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/142x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 428,
+    "weed_name": "Tango Quebec Uniform Lima India Delta Bravo Foxtrot Zulu Victor",
+    "price": 65,
+    "quantity": 65,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 28,
+    "weed_name": "Quebec Sierra Papa Golf Tango Zulu Oscar India Lima Romeo Alfa Charlie Echo November",
+    "price": 85,
+    "quantity": 63,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/231x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 443,
+    "weed_name": "Juliett Bravo Kilo Echo Hotel Romeo Whiskey X-ray Tango Delta Papa Foxtrot India Quebec Zulu Golf Sierra Lima Charlie",
+    "price": 21,
+    "quantity": 91,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/175x100.png/dddddd/000000"
+  }, {
+    "weed_id": 280,
+    "weed_name": "Romeo Tango Sierra Quebec Foxtrot X-ray Kilo Juliett Charlie India Bravo Papa Golf November Oscar Zulu Uniform Victor",
+    "price": 40,
+    "quantity": 48,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 497,
+    "weed_name": "Oscar X-ray Papa Juliett Foxtrot Mike Bravo Zulu Kilo Charlie Tango Delta Uniform India Echo Quebec Golf Yankee November",
+    "price": 50,
+    "quantity": 20,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/112x100.png/dddddd/000000"
+  }, {
+    "weed_id": 320,
+    "weed_name": "Hotel India Papa Lima Juliett Sierra Echo Uniform Romeo Mike Quebec Victor",
+    "price": 95,
+    "quantity": 83,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/204x100.png/dddddd/000000"
+  }, {
+    "weed_id": 213,
+    "weed_name": "X-ray Tango Hotel Uniform Papa Juliett Sierra Lima Whiskey Bravo Romeo Quebec Kilo Golf Alfa Foxtrot India Zulu Delta",
+    "price": 54,
+    "quantity": 75,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 247,
+    "weed_name": "Romeo Foxtrot Whiskey Mike Quebec Victor Charlie Oscar November Delta Kilo",
+    "price": 71,
+    "quantity": 19,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/138x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 7,
+    "weed_name": "Sierra Golf Quebec Hotel Yankee Juliett Whiskey Kilo Tango Delta November Lima Bravo Charlie Victor India Oscar Uniform Papa",
+    "price": 62,
+    "quantity": 48,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/238x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 93,
+    "weed_name": "Kilo X-ray Alfa Golf Charlie Whiskey November Mike Quebec Lima Victor",
+    "price": 20,
+    "quantity": 87,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/157x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 197,
+    "weed_name": "Uniform Romeo Echo Whiskey November Charlie Papa Kilo Tango Yankee Alfa Zulu Victor Golf Delta Sierra Oscar",
+    "price": 72,
+    "quantity": 10,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/144x100.png/dddddd/000000"
+  }, {
+    "weed_id": 327,
+    "weed_name": "Quebec Hotel India Echo Yankee Golf Bravo Mike Sierra Juliett Lima Tango Zulu Alfa Whiskey Foxtrot",
+    "price": 89,
+    "quantity": 48,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/100x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 31,
+    "weed_name": "Alfa Bravo Sierra Hotel Tango Yankee Delta Charlie Foxtrot Romeo Zulu Mike",
+    "price": 25,
+    "quantity": 67,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/216x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 88,
+    "weed_name": "November Uniform Lima Charlie Tango Bravo Echo Papa X-ray Kilo Sierra Zulu Mike",
+    "price": 82,
+    "quantity": 25,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/162x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 62,
+    "weed_name": "Juliett India Zulu Romeo Uniform Lima Mike November Yankee Alfa Tango",
+    "price": 78,
+    "quantity": 47,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/113x100.png/dddddd/000000"
+  }, {
+    "weed_id": 146,
+    "weed_name": "Sierra Delta Charlie Tango Hotel Yankee Echo Mike Papa India Quebec Foxtrot Alfa X-ray Golf Oscar Victor November Juliett",
+    "price": 68,
+    "quantity": 67,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/142x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 62,
+    "weed_name": "Zulu Whiskey Charlie Oscar Echo Uniform Foxtrot Mike Kilo Sierra Tango November Golf Juliett Alfa Hotel",
+    "price": 24,
+    "quantity": 88,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/133x100.png/dddddd/000000"
+  }, {
+    "weed_id": 192,
+    "weed_name": "Golf Romeo Victor Oscar Tango Echo X-ray Foxtrot Juliett November Mike Lima Delta Bravo Alfa Hotel Sierra India Kilo Uniform",
+    "price": 26,
+    "quantity": 21,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/220x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 374,
+    "weed_name": "Zulu India Kilo Uniform Sierra Bravo Papa Hotel Mike November Foxtrot",
+    "price": 61,
+    "quantity": 84,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/149x100.png/dddddd/000000"
+  }, {
+    "weed_id": 129,
+    "weed_name": "Charlie Delta Alfa Victor Foxtrot Romeo Sierra Lima Quebec Whiskey November Bravo Uniform Golf",
+    "price": 91,
+    "quantity": 52,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/179x100.png/dddddd/000000"
+  }, {
+    "weed_id": 496,
+    "weed_name": "Papa Lima Echo Sierra November India Zulu Juliett Mike Foxtrot Uniform Oscar Tango Romeo",
+    "price": 16,
+    "quantity": 97,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/214x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 241,
+    "weed_name": "Alfa Mike Kilo Bravo Hotel Oscar X-ray November Papa Juliett Yankee Charlie Golf Uniform Victor Sierra Tango",
+    "price": 22,
+    "quantity": 20,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/111x100.png/dddddd/000000"
+  }, {
+    "weed_id": 335,
+    "weed_name": "Quebec Whiskey Lima Kilo Sierra Victor Uniform India Charlie Golf Yankee Juliett Papa Delta Oscar Foxtrot Zulu Bravo",
+    "price": 11,
+    "quantity": 51,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/238x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 252,
+    "weed_name": "Alfa Lima Whiskey November Foxtrot Victor Uniform X-ray Oscar Papa Yankee Golf India",
+    "price": 53,
+    "quantity": 22,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/207x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 239,
+    "weed_name": "Delta Juliett November Foxtrot Yankee Sierra Tango Oscar Zulu Bravo Golf Romeo Papa Echo Quebec Hotel",
+    "price": 42,
+    "quantity": 37,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/178x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 440,
+    "weed_name": "Hotel November Sierra Uniform Yankee Charlie Golf Zulu Mike Lima Whiskey X-ray Delta",
+    "price": 62,
+    "quantity": 66,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/165x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 8,
+    "weed_name": "Golf Victor Juliett Lima Sierra Mike X-ray Echo Alfa Zulu Whiskey November Hotel Papa Delta Yankee Oscar",
+    "price": 38,
+    "quantity": 29,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/149x100.png/dddddd/000000"
+  }, {
+    "weed_id": 66,
+    "weed_name": "Tango Delta November Charlie India Lima Foxtrot Yankee Juliett Victor Kilo Zulu",
+    "price": 91,
+    "quantity": 28,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/168x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 314,
+    "weed_name": "Golf Sierra Charlie Hotel Mike Yankee Zulu Juliett Tango Uniform November Quebec X-ray Oscar Echo",
+    "price": 94,
+    "quantity": 40,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/240x100.png/dddddd/000000"
+  }, {
+    "weed_id": 316,
+    "weed_name": "Alfa Tango Sierra Oscar Quebec Whiskey Charlie Uniform November Romeo Yankee X-ray Golf Kilo Foxtrot Lima Delta Papa Victor",
+    "price": 57,
+    "quantity": 61,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/139x100.png/dddddd/000000"
+  }, {
+    "weed_id": 291,
+    "weed_name": "Yankee Hotel Charlie Kilo Zulu X-ray Quebec Oscar Mike Delta Bravo",
+    "price": 34,
+    "quantity": 33,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/229x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 145,
+    "weed_name": "Golf Victor Echo Romeo Foxtrot Bravo Oscar Lima Kilo Quebec Charlie",
+    "price": 76,
+    "quantity": 76,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/131x100.png/dddddd/000000"
+  }, {
+    "weed_id": 209,
+    "weed_name": "Lima Zulu Romeo Mike Sierra Yankee Whiskey Echo Quebec Bravo Hotel Golf Foxtrot Papa Alfa Tango",
+    "price": 51,
+    "quantity": 39,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/161x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 468,
+    "weed_name": "Yankee Quebec Victor India Hotel Foxtrot Oscar Lima November Whiskey Charlie Juliett X-ray Romeo Sierra Echo Mike Alfa Zulu Tango",
+    "price": 19,
+    "quantity": 76,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/228x100.png/dddddd/000000"
+  }, {
+    "weed_id": 495,
+    "weed_name": "Romeo Charlie Golf Uniform Sierra Zulu Foxtrot Delta Papa Tango Quebec November India Hotel Whiskey",
+    "price": 99,
+    "quantity": 67,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/211x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 432,
+    "weed_name": "Quebec Delta Uniform Papa India Victor Charlie Romeo November Lima X-ray Mike Zulu",
+    "price": 89,
+    "quantity": 92,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/130x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 214,
+    "weed_name": "Romeo Kilo Alfa Mike Victor Sierra Delta Papa Uniform Quebec Oscar",
+    "price": 44,
+    "quantity": 82,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 366,
+    "weed_name": "Golf Alfa Yankee Delta X-ray Quebec Mike November Whiskey Bravo Romeo Sierra Hotel",
+    "price": 20,
+    "quantity": 60,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/128x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 323,
+    "weed_name": "India Yankee Romeo Hotel Juliett Foxtrot Tango Mike Charlie Zulu Golf Echo",
+    "price": 37,
+    "quantity": 69,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/208x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 45,
+    "weed_name": "Yankee Bravo Oscar Lima Echo X-ray Whiskey Sierra Papa Charlie Mike India Golf Romeo",
+    "price": 19,
+    "quantity": 100,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/211x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 53,
+    "weed_name": "Golf Sierra India Bravo X-ray Charlie Delta Lima Hotel Victor Echo Kilo Foxtrot Uniform Alfa Romeo Zulu Whiskey",
+    "price": 97,
+    "quantity": 48,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/172x100.png/dddddd/000000"
+  }, {
+    "weed_id": 225,
+    "weed_name": "Foxtrot India Quebec Charlie Sierra Romeo Kilo Uniform Yankee Papa Delta Lima Echo Zulu November Golf Oscar Bravo Victor",
+    "price": 31,
+    "quantity": 94,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/239x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 331,
+    "weed_name": "Charlie Kilo Lima Tango Mike Hotel Victor Papa Oscar Romeo",
+    "price": 25,
+    "quantity": 81,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/213x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 164,
+    "weed_name": "Tango Golf Charlie Hotel X-ray Whiskey Alfa Zulu Delta Oscar Papa Mike Echo India Juliett",
+    "price": 18,
+    "quantity": 23,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/131x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 347,
+    "weed_name": "Golf Kilo Oscar Foxtrot Hotel Echo Sierra X-ray Whiskey Victor Zulu Romeo November Charlie Delta Juliett",
+    "price": 16,
+    "quantity": 76,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/191x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 402,
+    "weed_name": "Hotel Lima Foxtrot Golf Kilo India X-ray Echo Alfa Sierra Tango Bravo Whiskey Juliett Victor Charlie Quebec",
+    "price": 21,
+    "quantity": 60,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/185x100.png/dddddd/000000"
+  }, {
+    "weed_id": 223,
+    "weed_name": "Papa Kilo Uniform Golf Victor Yankee Whiskey Tango India Romeo Oscar Mike",
+    "price": 81,
+    "quantity": 32,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/232x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 275,
+    "weed_name": "Bravo X-ray Whiskey Alfa Victor Zulu Charlie Golf Papa Sierra Foxtrot India Romeo Echo",
+    "price": 46,
+    "quantity": 42,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/132x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 313,
+    "weed_name": "Papa Whiskey Sierra India Mike Bravo Tango Romeo Juliett Oscar Zulu Delta X-ray Victor Charlie Lima",
+    "price": 36,
+    "quantity": 78,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/212x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 172,
+    "weed_name": "Lima November Yankee Alfa Juliett Quebec Hotel X-ray Kilo Tango",
+    "price": 13,
+    "quantity": 23,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/152x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 403,
+    "weed_name": "Kilo Echo Golf Victor Uniform X-ray Mike Quebec Oscar India Romeo Papa Juliett Hotel Tango Sierra Alfa",
+    "price": 82,
+    "quantity": 20,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 428,
+    "weed_name": "Zulu Quebec Uniform November Sierra Alfa Echo Lima Papa Whiskey Victor Bravo Hotel Mike Tango Romeo Kilo X-ray Delta Golf",
+    "price": 30,
+    "quantity": 95,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/103x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 292,
+    "weed_name": "Kilo November Romeo Delta Foxtrot Yankee Uniform Sierra Mike India Alfa Echo Lima Quebec Zulu Victor X-ray Golf Hotel Tango",
+    "price": 24,
+    "quantity": 57,
+    "is_indica": false,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/122x100.png/dddddd/000000"
+  }, {
+    "weed_id": 441,
+    "weed_name": "Bravo November Alfa Papa Kilo X-ray India Hotel Uniform Golf Mike",
+    "price": 63,
+    "quantity": 46,
+    "is_indica": true,
+    "on_sale": false,
+    "weed_image": "http://dummyimage.com/209x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 147,
+    "weed_name": "Whiskey Mike Lima Golf Yankee Echo Quebec X-ray India Romeo Oscar Uniform Zulu Alfa Foxtrot Kilo Sierra Papa Bravo Victor",
+    "price": 87,
+    "quantity": 78,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+  }, {
+    "weed_id": 120,
+    "weed_name": "Juliett November Papa Delta Golf Lima Whiskey India Uniform X-ray Kilo Sierra Yankee Charlie Victor Quebec",
+    "price": 14,
+    "quantity": 87,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/237x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 16,
+    "weed_name": "Tango Quebec X-ray Zulu Oscar Victor Foxtrot Uniform Mike Golf Whiskey Alfa Juliett India Papa Yankee Lima Echo",
+    "price": 98,
+    "quantity": 80,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/186x100.png/5fa2dd/ffffff"
+  }, {
+    "weed_id": 111,
+    "weed_name": "Echo X-ray Hotel Whiskey Alfa Oscar Victor Juliett Quebec Kilo Papa Mike Delta Charlie Bravo Uniform Golf Sierra Romeo",
+    "price": 92,
+    "quantity": 45,
+    "is_indica": false,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/109x100.png/ff4444/ffffff"
+  }, {
+    "weed_id": 250,
+    "weed_name": "X-ray November Oscar Yankee Golf Papa Echo Sierra Lima Whiskey Zulu Alfa Foxtrot",
+    "price": 61,
+    "quantity": 59,
+    "is_indica": true,
+    "on_sale": true,
+    "weed_image": "http://dummyimage.com/157x100.png/cc0000/ffffff"
+  }]

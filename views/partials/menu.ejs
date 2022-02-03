@@ -1,0 +1,21 @@
+<div class="menu hide-menu">
+  <h3 class="menu-item-h3" data-path="newest">- Newest -</h3>
+  <h3 class="menu-item-h3" data-path="cheapest">- Cheapest -</h3>
+  <h3 class="menu-item-h3" data-path="expensive">- (Most)_Expensive -</h3>
+  <h3 class="menu-item-h3" data-path="sale">- On_$ale -</h3>
+</div>
+
+<script>
+  var menuItems = document.querySelectorAll(".menu-item-h3");
+
+  menuItems.forEach((i) => {
+    i.onclick = (e) => {
+      let category = e.target.getAttribute("data-path");
+      // category = category[1];
+
+      console.log("fx fired", category);
+      fetch(`/category/${category.toLowerCase()}`);
+      location.pathname = `/category/${category.toLowerCase()}`;
+    };
+  });
+</script>

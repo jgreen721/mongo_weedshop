@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Weed Info</title>
+  </head>
+  <body class="flex column evenly h-full w-full">
+    <h1>Weed info Page</h1>
+    <img class='rounded-md shadow-md weed-info-img' src="<%=weedInfo.weed_image%>" alt="img" />
+    <div class="flex center evenly">
+      <h4 class="mx-5">Price: $ <%=weedInfo.price%></h4>
+      <h4>Q: <%=weedInfo.quantity%></h4>
+      </div>
+      <div class="flex center">
+      <h5 class="mx-5">Rated:<%=Math.random() * 10 | 0 %></h5>
+      <h5 class="mx-5">Strain: <%= weedInfo.is_indica == true ? "Indica" : "Sativa" %></h5>
+      <h5 class="mx-5">OnSale: <%= weedInfo.on_sale == true ? "True" : "---" %></h5>
+      </div>
+    </div>
+    <div class="flex evenly">
+        <button class="add-cart-btn" data-id="<%=weedInfo._id%>">Add to Cart</button>
+    <a href="/">Back</a>
+    </div>
+
+
+    <script>
+
+        var addCartBtn = document.querySelector(".add-cart-btn");
+
+        addCartBtn.onclick=(e)=>{
+            // alert(e.target.getAttribute("data-id"))
+            let id = e.target.getAttribute("data-id")
+
+            fetch(`/addtocart/${id}`,{headers:{'Auth-Smoker':JSON.parse(localStorage.getItem("curr_user")).username}})
+            .then(res=>res.json())
+            .then(res=>{
+              console.log(res)
+              alert(res.msg)
+              setTimeout(()=>window.location.pathname="/dashboard",2000)
+            })
+        }
+    </script>
+  </body>
+</html>
