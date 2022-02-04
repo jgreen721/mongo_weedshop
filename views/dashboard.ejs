@@ -72,6 +72,11 @@
 
         <div class="total-div" hidden>
           <h5>Total:<span class="cart-total"></span></h5>
+          <button class="checkout-btn">CheckOut</button>
+        </div>
+
+        <div class="checkout-modal hide-cart">
+          <h1>CheckOut-Modal</h1>
         </div>
 
         <div>
@@ -150,7 +155,7 @@
       removeSpans.forEach((s) => {
         s.onclick = async (e) => {
           e.stopPropagation();
-
+          console.log(e.target);
           let weedId = e.target.getAttribute("data-id");
           console.log("WeedID", weedId);
 
@@ -176,6 +181,12 @@
         );
         document.querySelector(".cart-total").innerHTML = "$ " + total;
       }
+
+      var checkOutBtn = (document.querySelector(".checkout-btn").onclick = (
+        e
+      ) => {
+        document.querySelector(".checkout-modal").classList.toggle("hide-cart");
+      });
     </script>
   </body>
 </html>

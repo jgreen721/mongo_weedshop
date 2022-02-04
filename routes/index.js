@@ -4,7 +4,7 @@ const db = require("../db");
 const weeds = require("../weed.json");
 let weed_data = require("../weeddata.json");
 
-require("../passport-local.js")(passport);
+require("../utils/passport-local.js")(passport);
 
 router.get("/", (req, res) => {
   res.redirect("/login");
@@ -32,9 +32,24 @@ router.get(
     next();
   },
   async (req, res) => {
+    console.log(req.user);
+    // if (!req.user) {
+    //   console.log("lost track of your user");
+    //   res.json({ status: 305 });
+    //   return;
+    // }
     let weeds = await db.Weed.find().sort({ price: -1 });
+
     let user = await db.Smoker.findOne({ username: req.user.username });
-    // console.log(user);
+    console.log(user);
+    if (!user) {
+      console.log("uh-oh, we lost track of you, redirecting back to /login");
+      req.logOut();
+      res.redirect("/login");
+      return;
+    }
+    // res.json({ msg: "temp status, under construction" });
+
     res.render("dashboard", {
       username: user.username,
       cartItems: user.shopping_cart,
@@ -135,17 +150,19 @@ router.get("/weedinfo/:id", async (req, res) => {
 });
 
 router.get("/addtocart/:id", async (req, res) => {
-  // console.log(req.headers["auth-smoker"]);
+  // console.log(req.headers);
   let smoker = req.headers["auth-smoker"];
-  console.log("ID", req.params.id);
+  console.log("ID", req.params.id, smoker);
   let weed = await db.Weed.findOne({ _id: req.params.id });
   console.log("Weed to Add", weed);
-  res.json({ status: 301, msg: "success, but still under construction" });
+  var { weed_name, weed_image, price, quantity, weed_id } = weed;
+  var weedObj = { weed_name, weed_image, price, quantity, weed_id };
   let result = await db.Smoker.findOneAndUpdate({
     username: smoker,
-    $push: { shopping_cart: weed },
+    $push: { shopping_cart: weedObj },
   });
   console.log("Result", result);
+  res.json({ status: 301, msg: `${weed_name} has been added to your cart 😎` });
 });
 
 router.get("/remove/:id", async (req, res) => {
@@ -175,6 +192,30 @@ router.get("/remove/:id", async (req, res) => {
     console.log("Result", result);
     res.json({ status: 200 });
   }
+});
+
+router.get("/clearcart/:username", (req, res) => {
+  db.Smoker.findOneAndUpdate(
+    { username: req.params.username },
+    { $set: { shopping_cart: [] } }
+  ).then((dbuser) => {
+    console.log("Clear cart for", dbuser);
+    res.json({ user: dbuser, status: "200?" });
+  });
+});
+
+router.get("/flushweed", (req, res) => {
+  // db.Weed.find().then((weeds) => {
+  //   weeds.forEach((weed) => {
+  //     db.Weed.findOneAndUpdate(
+  //       { weed_name: weed.weed_name },
+  //       { $set: { weed_id: (Math.random() * 1000) | 0 } }
+  //     ).then(() => {
+  //       console.log("updated");
+  //     });
+  //   });
+  // });
+  res.json({ status: 240 });
 });
 
 module.exports = router;

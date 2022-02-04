@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Weed Info</title>
   </head>
-  <body class="flex column evenly h-full w-full">
+  <body class="flex column evenly h-full w-full bg-gray">
     <h1>Weed info Page</h1>
+    <h3>- <%=weedInfo.weed_name%> -</h3>
     <img class='rounded-md shadow-md weed-info-img' src="<%=weedInfo.weed_image%>" alt="img" />
     <div class="flex center evenly">
       <h4 class="mx-5">Price: $ <%=weedInfo.price%></h4>
@@ -33,7 +34,7 @@
         addCartBtn.onclick=(e)=>{
             // alert(e.target.getAttribute("data-id"))
             let id = e.target.getAttribute("data-id")
-
+          console.log(id)
             fetch(`/addtocart/${id}`,{headers:{'Auth-Smoker':JSON.parse(localStorage.getItem("curr_user")).username}})
             .then(res=>res.json())
             .then(res=>{
